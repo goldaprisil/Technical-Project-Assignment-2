@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI KALKULAROR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="paragraf">
+    <h2> AYO Cek BMI Kamu Sekarang!</h2>
+    <p>Indeks massa tubuh atau indeks Quetelet merupakan proksi heuristik untuk lemak tubuh manusia berdasarkan berat badan seseorang dan tinggi.</p>
+    <br>
+    <h3>BMI Categories: </h3>
+      <p>Underweight  = BMI kurang dari 18.5</p>
+      <p>Normal weight  = BMI antara 18.5 sampai 24.9</p>
+      <p>Overweight = BMI antara 25 sampai 29.9</p>
+      <p>Obesity  = BMI lebih dari 30</p>
+      
+      </div>
+    <div class="container">
+        <div class="box">
+          <h1>BMI KALKULAROR</h1>
+          <div class="content">
+            <div class="input">
+              <label for="height">Tinggi(cm)</label>
+              <input type="number" id="height">
+            </div>
+            <div class="input">
+              <label for="weight">Berat(kg)</label>
+              <input type="number" id="weight">
+            </div>
+            <button id="calculate">Hitung BMI</button>
+          </div>
+          <div class="result">
+            <p>Hasil BMI Mu</p>
+            <div id="result">0</div>
+            <p class="comment"></p>
+          </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 150vh;
+  background: rgb(255, 255, 255);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.container {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  transform: translate(-50%, 0%);
+  color: #fdfdfd;
+}
+.box {
+  min-width: 400px;
+  background: #000000;
+  border-radius: 38px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 150px;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  height: 110%;
+  width: 110%;
+  left: -5%;
+  top: -5%;
+  background-color: #ff781d;
+  box-shadow: 0px 0px 166px -31px rgba(0, 0, 0, 0.15);
+  border-radius: 70px;
+  z-index: -1;
+}
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 30px 0;
+}
+.content {
+  padding: 0 40px;
+}
+.input {
+  background: #ffffff;
+  box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+  border-radius: 28px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+.input label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ffa600;
+  width: 60%;
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+button#calculate {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #000000;
+  background: #ffffff;
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 12px 0;
+  width: 100%;
+  outline: none;
+  border: none;
+  
+}
+button#calculate:hover {
+  background: #ff812e;
+}
+.result {
+  padding: 30px 20px;
+}
+.result p {
+  font-weight: 600;
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.result #result {
+  font-size: 36px;
+  font-weight: 900;
+  color: #ff781d;
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 7px 20px;
+  border-radius: 55px;
+  margin-bottom: 25px;
+}
+#comment {
+  color: #ff781d;
+  font-weight: 800;
+}
+.paragraf{
+  font-family: 'Montserrat Alternates', sans-serif;
+  position: fixed;
+  left: 50%;
+  top: 37%;
+  height: 40px;
+  transform: translate(0%, 30%);
+  color: #000000;
+}
